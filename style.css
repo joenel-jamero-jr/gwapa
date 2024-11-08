@@ -1,0 +1,47 @@
+/* Nostalgic CSS */
+body {
+    background-color: #f2eecb;
+    font-family: "Courier New", Courier, monospace;
+    color: #333333;
+}
+
+p {
+    color: #4a4a4a;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #fff7e6;
+    border: 2px solid #d4b483;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: #666;
+    font-size: 1.1em;
+}
+
+input[type="text"] {
+    background-color: #f8f3e3;
+    border: 1px solid #b8a48f;
+    border-radius: 5px;
+    color: #333333;
+}
+
+input[type="text"]:focus {
+    border-color: #d4b483;
+    box-shadow: 0px 0px 8px rgba(212, 180, 131, 0.6);
+}
+
+input[type="text"]::placeholder {
+    color: #8c7b63;
+    opacity: 0.8;
+}
+
