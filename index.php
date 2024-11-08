@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p style="font-weight: bold;">My First Ubunto Server PHP Deployment Joenel Jamero Jr.</p>
     <div class="form-container">
+	<p style="font-weight: bold;">My First Ubunto Server PHP Deployment Joenel Jamero Jr.</p>
         <h1>Registration Form</h1>
         <form action="process_registration.php" method="post">
             <label for="firstname">First Name:</label>
