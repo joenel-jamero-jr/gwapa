@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="form-container">
-	<p style="font-weight: bold;">My First Ubunto Server PHP Deployment Joenel Jamero Jr.</p>
+        <p style="font-weight: bold; text-align: center;">My First Ubuntu Server PHP Deployment - Joenel Jamero Jr.</p>
         <h1>Registration Form</h1>
         <form action="process_registration.php" method="post">
             <label for="firstname">First Name:</label>
@@ -23,16 +23,13 @@
             <label for="age">Age:</label>
             <input type="number" id="age" name="age" min="1" required>
 
-            <label for="birthdate">Birthdate:</label>
-            <input type="date" id="birthdate" name="birthdate" required>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="course_section">Course Section:</label>
+            <input type="text" id="course_section" name="course_section" required>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-
-            <button type="submit">Register</button>
+            <button type="submit">Submit</button>
         </form>
     </div>
 </body>

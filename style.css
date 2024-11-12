@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Adjust to ensure full-screen fit */
+    min-height: 100vh;
 }
 
 .form-container {
@@ -18,7 +18,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.6), 0 0 20px #3399ff;
     width: 90%;
     max-width: 400px;
-    box-sizing: border-box; /* Ensure padding doesn’t exceed width */
+    box-sizing: border-box;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
     margin-bottom: 25px;
     color: #00ccff;
     text-shadow: 0 0 5px #0066cc, 0 0 15px #00ccff;
-    font-size: 1.8rem; /* Increased font size for better readability */
+    font-size: 1.8rem;
 }
 
 label {
@@ -34,7 +34,7 @@ label {
     margin-top: 15px;
     color: #e6e6e6;
     font-weight: bold;
-    font-size: 1rem; /* Better visibility */
+    font-size: 1rem;
 }
 
 input[type="text"], input[type="number"], input[type="date"], input[type="email"], input[type="password"] {
@@ -48,13 +48,13 @@ input[type="text"], input[type="number"], input[type="date"], input[type="email"
     color: #e0e0e0;
     outline: none;
     transition: background 0.3s ease-in-out, border 0.3s;
-    font-size: 1rem; /* Larger input text */
-    box-sizing: border-box; /* Consistent sizing */
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
 input[type="text"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="email"]:focus, input[type="password"]:focus {
     background: rgba(80, 80, 80, 0.9);
-    border: 1px solid #3399ff; /* Border on focus for better UI feedback */
+    border: 1px solid #3399ff;
 }
 
 button {
@@ -68,16 +68,20 @@ button {
     cursor: pointer;
     transition: background 0.3s ease-in-out, transform 0.2s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    font-size: 1rem; /* Increase button text size */
+    font-size: 1rem;
 }
 
 button:hover {
     background: linear-gradient(135deg, #003366, #007acc);
-    transform: translateY(-2px); /* Slight lift on hover for better UI */
+    transform: translateY(-2px);
+}
+
+button:focus {
+    outline: 2px solid #3399ff;
 }
 
 button:active {
-    transform: translateY(0); /* Return to normal on click */
+    transform: translateY(0);
 }
 
 /* Responsive styles */
